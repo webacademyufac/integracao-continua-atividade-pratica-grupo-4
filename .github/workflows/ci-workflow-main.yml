@@ -1,0 +1,14 @@
+name: CI Workflow Main
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+  workflow_call:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Angular teste
+        run: ng test
