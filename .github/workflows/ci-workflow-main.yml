@@ -14,12 +14,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 14
-      - name: NPM Init
-        run: npm init
+          node-version: 12
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: ng build --prod
-      - name: Test
-        run: ng test --watch=false --code-coverage --source-map true
+        run: npm run build -- --prod
+      # - name: Test
+      #   run: ng test --watch=false --code-coverage --source-map true
