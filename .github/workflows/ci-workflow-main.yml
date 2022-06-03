@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Angular teste
-        run: ng test
+      - name: Angular Build
+        run: ng build --prod
