@@ -7,7 +7,7 @@ on:
   workflow_call:
 jobs:
   build:
-    name: Build and Test
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,5 +19,3 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build -- --prod
-      # - name: Test
-      #   run: ng test --watch=false --code-coverage --source-map true
