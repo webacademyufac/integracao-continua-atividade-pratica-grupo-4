@@ -23,10 +23,3 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: 'sgcm-grupo-4'
           heroku_email: 'gerlima96@gmail.com'
-
-          # https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147
-          # https://www.devmedia.com.br/angular-cli-como-rodar-testes-e-checar-o-codigo/38248#:~:text=Assim%2C%20basta%20executar%20o%20comando,dentro%20da%20pasta%20do%20projeto.
-          # https://www.focisolutions.com/2020/04/github-actions-deploying-an-angular-app/
-          # https://github.com/actions/setup-node
-          # https://stackoverflow.com/questions/59466378/github-actions-angular-cli
-          # https://stackoverflow.com/questions/59466378/github-actions-angular-cli
