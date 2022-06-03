@@ -56,9 +56,7 @@ import { RouterTestingModule } from '@angular/router/testing';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule,
-    HttpClientTestingModule,
-    RouterTestingModule
+    HttpClientModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ErroInterceptor, multi: true },
