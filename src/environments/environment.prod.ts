@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: "https://localhost:9000"
+  apiUrl: "https://sgcmapi-aludev.herokuapp.com/"
 };
